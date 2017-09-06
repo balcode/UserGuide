@@ -4,50 +4,61 @@ The goal of this guide is to make the content of question documents consistent. 
 
 ### The Four Phases of Creating a Lesson
 The steps in creating a lesson: 
-1. Write goals/objectives for the lesson.
+1. Write objectives for the lesson.
 2. Gather facts about the lesson. 
-3. Create content/questions based on facts. 
+3. Create content and questions. 
 4. Create answers and tests files for type CR questions.
 
-## Writing Objective
+## Writing Objectives
 
-Begin by writing objectives in order to limit the scope of the lesson and identify the skills that you want to learners to acquire. 
+Begin by writing objectives in order to limit the scope of the lesson and identify the skills that you want to learners to acquire. The objectives document will not be accessed by learners. It is a reference for you, the course creator, and the reviewers.
 
 To write objectives, follow these steps:
 
-1. Enumerate the skills that a learner must acquire by the end of the lesson.
-2. Use the <code>verb</code> **+** <code>knowledge / topic</code> format:
+1. Annotate the title of the lesson with three number signs **#**. In the markdown format, three number signs **#** will render at text in heading three format. Enclose the name of the lesson in backticks **`**.
+
+![Writing an objective's title](https://lh4.googleusercontent.com/jUzM15CufIyAgRFO8yxAclArFKGFfPh2_A2iTOvoACtp_tCrgUPjmn--kWgzJWmY3Ufbtk0zD62bzZc=w1919-h950-rw)
+**Figure 1.** Use the heading 3 annotation for the title of the objective document. Enclose the name of the lesson in backticks **`**.
+
+2. Enumerate the skills that a learner must acquire by the end of the lesson.
+3. Use the <code>verb</code> **+** <code>knowledge / topic</code> format:
         </br>
         <code>1. Perform variable interpolation.</code> 
         </br>
         <code>2. Identify the output of an echo statement.</code>
-3. Adhere to the S-M-A-R-T guideline of writing objectives: specific, measurable, attainable, and time-bounded.
-4. Avoid non-specific words such as <code>learn</code>, <code>know</code>, or <code>understand</code>.
-5. Save the objective document in the following format:
+        </br>
+4. Adhere to the S-M-A-R-T guideline of writing objectives: specific, measurable, attainable, and time-bounded.
+5. Avoid non-specific words such as <code>learn</code>, <code>know</code>, or <code>understand</code>.
+6. Save the objective document in the following format:
         </br>
         a. name of the lesson, with every word capitalized
         </br>
         b. the word <code>objective</code>
         </br>
         c. the markdown <code>.md</code> file extension
-
 ![Writing an objective](https://lh5.googleusercontent.com/OKl_5vJvUNpci8AI2YJ38RvcPBpZKtdnKNxKusfseX-oHhc8KcHPcPL4NZVR7UddwMrGMi8jJ_4vHxQ=w1919-h950-rw)
-**Figure .** When saving an objective document, capitalize every word including conjunctions. Do not capitalize <code>objectives</code> and <code>md</code>.
+**Figure 2.** When saving an objective document, capitalize every word including conjunctions. Do not capitalize <code>objectives</code> and <code>md</code>.
 
 ## Gathering Facts
 
-The facts document serve as your reference when writing questions.
+The facts document serve as your reference when writing questions. The facts document will not be accessed by learners. It is a reference for you, the course creator, and the reviewers. 
 
-n. Save the facts document in the following format:
+To write a facts document, follow these steps:
+
+1. Annotate the title of the lesson with three number signs **#**. In the markdown format, three number signs **#** will render at text in heading three format. Enclose the name of the lesson in backticks **`**. 
+2. Summarize the relevant facts that you will be included in the lesson.
+3. Save the facts document in the following format:
         </br>
         a. name of the lesson, with every word capitalized
         </br>
         b. the word <code>facts</code>
         </br>
         c. the markdown <code>.md</code> file extension 
+![Writing the facts document](https://lh5.googleusercontent.com/fsXFP9XqjwEFRD-xk4l278Xd7WaOMtTXGUXCGqlYbFEbzkF-h7ViwNKPW-Zfv5GJ-uU3Z_0j5AD33uw=w1919-h950-rw)
+**Figure 3.** Write the facts that will be included in the lesson.
 
 
-## 3. The Question Document
+## The Question Document
 
 ### Naming convention for a question document
 
@@ -59,7 +70,7 @@ When saving a question document file, capitalize every word of the filename incl
 
 ![How to name a question document](https://lh4.googleusercontent.com/XmuBgnM4mhPd7zYlS0Dx_O9wTX0bkCBfk2n7jURwKOMn9HIXSfN_zsqXNY0cqzQ6UDAJWSPXyJwv1pE=w1920-h950-rw)
 
-&nbsp;&nbsp;&nbsp;**Figure 1.** When naming a question document, capitalize every word including conjunctions.
+&nbsp;&nbsp;&nbsp;**Figure 4.** When naming a question document, capitalize every word including conjunctions.
 
 ### Annotations
 
@@ -78,7 +89,7 @@ Use three slash signs /// to denote the type of a question or render a code edit
 
 ![Three slash signs](https://lh6.googleusercontent.com/4E0N5-oE5VB3xFmbi3yjKyEvTiMmYWtt2PE75ainRKRsledtUuS1cXBDntVRWyrCpgyqK8myOk49On0=w1920-h950)
 
-**Figure 2.** In the first instance, the slashes render a code editor. 
+**Figure 5.** In the first instance, the slashes render a code editor. 
               In the second instance, the slashes denote the type of question.
 
 ### How to Annotate an Answer Key
@@ -99,7 +110,7 @@ To annotate an answer, follow these steps:
 For code response answers, indicate the path of the file that contains the correct answer.
 
 ![Include the path for coder response](https://lh4.googleusercontent.com/tEOJrxGXeXL_-IjQvorqpWW2PsxispGYln3UFVOYpm7wIMbXnibXZekbaaAWQ3cGL_ng25uNJTTJQrI=w1920-h950-rw) 
-**Figure 3.** For Code Response questions, indicate the path of the file that contains the correct answer.
+**Figure 6.** For Code Response questions, indicate the path of the file that contains the correct answer.
 
 ### Types of Questions
 
@@ -122,7 +133,7 @@ A learner should run a CR to see its result.
 A learner should run an REPL to see its result.
 
 ![](https://lh5.googleusercontent.com/uKAr0PbAUCaeq_bGU2ueSz0D6-r41XYcwbIdngE21XRJZFnejMZgbxi0q506pkTPwQAwlED6ai-a3iU=w1920-h950) 
-**Figure 4**. This question annotation indicates that question 1 requires a single answer and the correct answer is the first option.
+**Figure 7.** This question annotation indicates that question 1 requires a single answer and the correct answer is the first option.
 
 ### How to annotate a question 
 
@@ -134,7 +145,7 @@ All question documents are formatted using a markup language called **Markdown**
 
 ![](https://lh6.googleusercontent.com/YnYeAc0cQik9sZey2WS71E9LN_V3cmUfYcRYyfAJZg8X-Iowi-invbL9SGf4LKQ1gvOfJ7Bat9e_Yio=w1920-h950)
 
-**Figure 5**. A hyphen **-** is rendered as a radio button. 
+**Figure 8.** A hyphen **-** is rendered as a radio button. 
 
 2.	Enclose all of the following in backticks **`** whenever they are contained in a question or answer:
 
@@ -148,7 +159,7 @@ All question documents are formatted using a markup language called **Markdown**
 
 ![](https://lh5.googleusercontent.com/_VNe9sFqAOFfbZUd7greLEVnfdQxp8wsndC-2KuJhh3xwRPscoldAgB_aztZq3FCxVqs5WIsx4rNHAI=w1920-h950) 
 
-**Figure 6**. The values of variables, names of variables, and code tags are enclosed in backticks **`** when part of a question or an answer.
+**Figure 9.** The values of variables, names of variables, and code tags are enclosed in backticks **`** when part of a question or an answer.
 
 
 ### How to annotate a code block
@@ -162,11 +173,11 @@ To annotate a code block, follow these steps:
 
 ![](https://lh4.googleusercontent.com/pR0d89FJylVqe0LOkgjhjKHPdWHfWl1bRM3i-vp29Hb74X64XZKvvik9HR_umNN0v1-dZ2TPSPwD2zo=w1920-h950)
 
-**Figure 7**. Enclose code blocks in three backticks.  
+**Figure 10.** Enclose code blocks in three backticks.  
 
 ![](https://lh3.googleusercontent.com/SRNv_009GVvobc18B21ubWxSKXpSWgGoaq6yWNXy5n_1I1-H6T-MGTVoVGRqQ57Js8CAT1-Qa9pTtUc=w1920-h950)
 
-**Figure 8**. Annotated code blocks are contained in the code evaluator.  	
+**Figure 11.** Annotated code blocks are contained in the code evaluator.  	
 
 ### Title of the lesson
 
@@ -177,7 +188,7 @@ Write the title on the first line of the question document. To annotate the tile
 
 ![](https://lh3.googleusercontent.com/qB8efw9XLNNesC-dnseuuInaSHfh0eyZKDMae4xtVJZnROA4I2NxkucMQ9tsmNAoKNxyrfDGcRaQEng=w1920-h950) 
 
-**Figure 9**. On the first line of the document, write the title of the lesson using headline style capitalization.
+**Figure 12.** On the first line of the document, write the title of the lesson using headline style capitalization.
 
 ### Sample Code Analysis
 
@@ -215,6 +226,12 @@ In **Practice**, learners test what they have learned in the past three sections
 
 ![](https://lh4.googleusercontent.com/5n59TM2Sj4RUJ95YVr9foCABN6lXDZRfdws46pUupCVemXDaDfPFXEM1aTTRWTe6ee3qMYEDNH-OzRI=w1919-h950-rw) 
 
-**Figure 10.** Create an annotation for the question type and answer. Write the problem statement. Lastly, create an annotation for the code evaluator.
+**Figure 13.** Create an annotation for the question type and answer. Write the problem statement. Lastly, create an annotation for the code evaluator.
 
- 
+## Creating Answers and Test Files
+
+A code, proof, and test files are necessary to verify the answers of code response questions.
+
+### How to Write Test Files
+
+For now, the guidelines on how to write those files are ideally used for PHP tests. For detailed instructions, view the [Proof Library](https://github.com/CodingAvenue/ca-school-proof-library/wiki "Open proof library on GitHub") on Github.
