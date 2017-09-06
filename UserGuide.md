@@ -2,6 +2,15 @@
 
 The goal of this guide is to make the content of question documents consistent. The content of CodeStop is created for individuals 12 years and older, with no background in programming. 
 
+
+The steps in creating a lesson: 
+1. Gather facts about the lesson. 
+2. Write goals/objectives for the lesson.  
+3. Create content/questions based on facts. 
+4. Create answers and tests files for type CR questions.
+
+## The Question Document
+
 ### Naming convention for a question document
 
 When saving a question document file, capitalize every word of the filename including conjunctions. The filename is composed of the following:
@@ -10,6 +19,7 @@ When saving a question document file, capitalize every word of the filename incl
 2.	the suffix ".q"
 3.	the file extension ".md"
 
+![](https://lh4.googleusercontent.com/XmuBgnM4mhPd7zYlS0Dx_O9wTX0bkCBfk2n7jURwKOMn9HIXSfN_zsqXNY0cqzQ6UDAJWSPXyJwv1pE=w1920-h950-rw)
 **Figure 1.** When naming a question document, capitalize every word including conjunctions.
 
 ### Annotations
@@ -26,7 +36,8 @@ Use three number signs ### to denote a specific part of a lesson.
 #### Three slash signs /// 	
 
 Use three slash signs /// to denote the type of a question or render a code editor. 
- 
+
+![](https://lh6.googleusercontent.com/4E0N5-oE5VB3xFmbi3yjKyEvTiMmYWtt2PE75ainRKRsledtUuS1cXBDntVRWyrCpgyqK8myOk49On0=w1920-h950) 
 **Figure 2.** In the first instance, the slashes render a code editor. 
               In the second instance, the slashes denote the type of question.
 
@@ -46,7 +57,9 @@ To annotate an answer, follow these steps:
 4.	Within the square brackets, indicate the correct answer. For single selection and multiple selection, the correct answer is indicated by a number: **1** being the first answer in the selection, **2** being the second, and so forth.
 
 For code response answers, indicate the path of the file that contains the correct answer.
- 
+
+![]
+() 
 **Figure 3.** For Code Response questions, indicate the path of the file that contains the correct answer.
 
 ### Types of Questions
@@ -67,7 +80,8 @@ A learner should run a CR to see its result.
 
 A learner should run an REPL to see its result.
 
- 
+![]
+() 
 **Figure 4**. This question annotation indicates that question 1 requires a single answer and the correct answer is the first option.
 
 ### How to annotate a question 
@@ -76,7 +90,9 @@ All question documents are formatted using a markup language called **Markdown**
 
 1.	Put a hyphen **-** before each choice. The CodeStop reader interprets a hyphen **-** as a radio button for questions that require a single selection; and as a checkbox for questions that require multiple selection.
 
- Figure 5. A hyphen **-** is rendered as a radio button. 
+![]
+()
+**Figure 5**. A hyphen **-** is rendered as a radio button. 
 
 2.	Enclose all of the following in backticks **`** whenever they are contained in a question or answer:
 
@@ -88,8 +104,9 @@ All question documents are formatted using a markup language called **Markdown**
 *	Names of functions
 *	Keywords
 
- 
-Figure 6. The values of variables, names of variables, and code tags are enclosed in backticks **`** when part of a question or an answer.
+![]
+() 
+**Figure 6**. The values of variables, names of variables, and code tags are enclosed in backticks **`** when part of a question or an answer.
 
 
 ### How to annotate a code block
@@ -100,10 +117,14 @@ To annotate a code block, follow these steps:
 1. Write three back ticks followed by the name of the programming language. For example: **```php**.
 2. Enter the code block.
 3. Write three back ticks **```** to close the code block.
- 	
-    Figure 7. Enclose code blocks in three backticks.  
 
- 	Figure 8. Annotated code blocks are contained in the code evaluator.  	
+![]
+()
+**Figure 7**. Enclose code blocks in three backticks.  
+
+![]
+()
+**Figure 8**. Annotated code blocks are contained in the code evaluator.  	
 
 ### Title of the lesson
 
@@ -111,7 +132,9 @@ Write the title on the first line of the question document. To annotate the tile
 1.	Put a number sign **#** to denote that what follows is the title of the lesson. 
 2.	Write the title of the lesson using headline capitalization. 
 3.	Leave the next line blank.
- 
+
+![]
+() 
 **Figure 9**. On the first line of the document, write the title of the lesson using headline style capitalization.
 
 ### Sample Code Analysis
@@ -146,7 +169,9 @@ In **Practice**, learners test what they have learned in the past three sections
 4.	Write a detailed explanation of the problem that needs to be solved. 
 5.	In the last sentence, state what should happen if the program is written correctly.
 6.	Create the annotation for the code evaluator.
- 
+
+![]
+() 
 **Figure 10.** Create an annotation for the question type and answer. Write the problem statement. Lastly, create an annotation for the code evaluator.
 
  
