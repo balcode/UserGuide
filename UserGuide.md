@@ -36,7 +36,8 @@ To write objectives, follow these steps:
         b. the word <code>objective</code>
         </br>
         c. the markdown <code>.md</code> file extension
-![Writing an objective](https://lh5.googleusercontent.com/OKl_5vJvUNpci8AI2YJ38RvcPBpZKtdnKNxKusfseX-oHhc8KcHPcPL4NZVR7UddwMrGMi8jJ_4vHxQ=w1919-h950-rw)
+
+![Writing an objective](https://lh3.googleusercontent.com/yo9h9yCK3oyBfAnF35h--QAOnMR-o7_ok7g6mETQcKBcvQVd9iUJu87I_9uRtrYtXB-xZWJoDZwkGFo=w1919-h950-rw)
 **Figure 2.** When saving an objective document, capitalize every word including conjunctions. Do not capitalize <code>objectives</code> and <code>md</code>.
 
 ## Gathering Facts
@@ -68,9 +69,8 @@ When saving a question document file, capitalize every word of the filename incl
 2.	the suffix ".q"
 3.	the file extension ".md"
 
-![How to name a question document](https://lh4.googleusercontent.com/XmuBgnM4mhPd7zYlS0Dx_O9wTX0bkCBfk2n7jURwKOMn9HIXSfN_zsqXNY0cqzQ6UDAJWSPXyJwv1pE=w1920-h950-rw)
-
-&nbsp;&nbsp;&nbsp;**Figure 4.** When naming a question document, capitalize every word including conjunctions.
+![How to name a question document](https://lh5.googleusercontent.com/aQ7lawQjuSjFOorInbeyZ8-lGuV5GqCePHK-iS3cinxfx2bBpyO3C4wjsSBicgZBhmbmeBnM6knd8Oc=w1919-h950-rw)
+**Figure 4.** When naming a question document, capitalize every word including conjunctions.
 
 ### Annotations
 
@@ -87,10 +87,12 @@ Use three number signs ### to denote a specific part of a lesson.
 
 Use three slash signs /// to denote the type of a question or render a code editor. 
 
-![Three slash signs](https://lh6.googleusercontent.com/4E0N5-oE5VB3xFmbi3yjKyEvTiMmYWtt2PE75ainRKRsledtUuS1cXBDntVRWyrCpgyqK8myOk49On0=w1920-h950)
+![Three slash signs](https://lh4.googleusercontent.com/OTQ5Dk8Gfwt5oHiFLKuVRiPVasYQIT2ViWFwmBkC30cTCsZiyHr0WYa9GkixtS3MZe1uW72yULDnlFs=w1919-h950)
 
-**Figure 5.** In the first instance, the slashes render a code editor. 
+**Figure 5.** In the first instance, the slashes indicate that what follows is a read-only **REPL**. 
               In the second instance, the slashes denote the type of question.
+
+To know more about the different types of question, read **Types of Questions** below.
 
 ### How to Annotate an Answer Key
 
@@ -109,7 +111,7 @@ To annotate an answer, follow these steps:
 
 For code response answers, indicate the path of the file that contains the correct answer.
 
-![Include the path for coder response](https://lh4.googleusercontent.com/tEOJrxGXeXL_-IjQvorqpWW2PsxispGYln3UFVOYpm7wIMbXnibXZekbaaAWQ3cGL_ng25uNJTTJQrI=w1920-h950-rw) 
+![Include the path for code response](https://lh3.googleusercontent.com/sowpArxrKpeslu3t8-HUTfu0IOEHZs0gcNBfHvFWjTvJmUteRYH9pxJajFMXvpU_UJZWyhZgI1pvkPk=w1919-h950-rw) 
 **Figure 6.** For Code Response questions, indicate the path of the file that contains the correct answer.
 
 ### Types of Questions
@@ -132,18 +134,19 @@ A learner should run a CR to see its result.
 
 A learner should run an REPL to see its result.
 
-![](https://lh5.googleusercontent.com/uKAr0PbAUCaeq_bGU2ueSz0D6-r41XYcwbIdngE21XRJZFnejMZgbxi0q506pkTPwQAwlED6ai-a3iU=w1920-h950) 
+![Indicate the question type and correct answer](https://lh3.googleusercontent.com/tRZthsQI7MXv1SDjEjW8CNUCXXqqcoRMFfLkigU-kS-YTcLSZM9JGamrvtWuNWf7755-QXqUZwy6wjw=w1919-h950) 
+
 **Figure 7.** This question annotation indicates that question 1 requires a single answer and the correct answer is the first option.
 
 ### How to annotate a question 
 
 All question documents are formatted using a markup language called **Markdown**. Follow these conventions when annotating the question documents: 
 
-1.	Put a hyphen **-** before each choice. The CodeStop reader interprets a hyphen **-** as a radio button for questions that require a single selection; and as a checkbox for questions that require multiple selection.
+1. Put a hyphen **-** before each choice. The CodeStop reader interprets a hyphen **-** as a radio button for questions that require a single selection; and as a checkbox for questions that require multiple selection.
 
-![](https://lh6.googleusercontent.com/lrPyy9KIqlZT7BdFWDySkp8iStKQ1aHhEnwK8cPyTo_TzxMJN8FLFqq8Ghy_Kry8AoxOXsJ2w06Gvv4=w1920-h950)
+![Put a hyphen before each selection](https://lh6.googleusercontent.com/zpDs4SuG8EtT1ZELZx3sEK8ZT7xn95KjMIRFUCHR3YCcIrLRbYU1ndcm3ARPtQgg1GnmkN14dO7gHHU=w1919-h950)
 
-![](https://lh6.googleusercontent.com/YnYeAc0cQik9sZey2WS71E9LN_V3cmUfYcRYyfAJZg8X-Iowi-invbL9SGf4LKQ1gvOfJ7Bat9e_Yio=w1920-h950)
+![Hyphens as radio buttons](https://lh6.googleusercontent.com/bYmz9zLTHkC5iKLrjtULQd4lMDVP6kUgUfTwqtB4TRPUl9tsV5Yda--R9ogMB12rCA6rWzZNsOcvL9A=w1919-h950)
 
 **Figure 8.** A hyphen **-** is rendered as a radio button. 
 
@@ -157,7 +160,7 @@ All question documents are formatted using a markup language called **Markdown**
 *	Names of functions
 *	Keywords
 
-![](https://lh5.googleusercontent.com/_VNe9sFqAOFfbZUd7greLEVnfdQxp8wsndC-2KuJhh3xwRPscoldAgB_aztZq3FCxVqs5WIsx4rNHAI=w1920-h950) 
+![](https://lh4.googleusercontent.com/MOFVaUJyFKmG2UUVCi_ajr4JB0gLagsGUk2ttvsLBOEbI8PbtvaYLDmTX58NrCxX1gzDgRSLdQa8cYY=w1919-h950) 
 
 **Figure 9.** The values of variables, names of variables, and code tags are enclosed in backticks **`** when part of a question or an answer.
 
@@ -171,11 +174,11 @@ To annotate a code block, follow these steps:
 2. Enter the code block.
 3. Write three back ticks **```** to close the code block.
 
-![](https://lh4.googleusercontent.com/pR0d89FJylVqe0LOkgjhjKHPdWHfWl1bRM3i-vp29Hb74X64XZKvvik9HR_umNN0v1-dZ2TPSPwD2zo=w1920-h950)
+![Code blocks are enclosed in back ticks](https://lh5.googleusercontent.com/z-gT2IY91NdXKZaYrqR4OApk9q4ZHonpN_tDUKVSPdpLgqXbcaEoxYZ_ENQ0X_A7z6GZ9G4EXkVmafE=w1919-h950)
 
 **Figure 10.** Enclose code blocks in three backticks.  
 
-![](https://lh3.googleusercontent.com/SRNv_009GVvobc18B21ubWxSKXpSWgGoaq6yWNXy5n_1I1-H6T-MGTVoVGRqQ57Js8CAT1-Qa9pTtUc=w1920-h950)
+![How code blocks are rendered](https://lh5.googleusercontent.com/-VdkbwaGfRfQ0JuxJhxbmlbwEmpgOwyCsGhFRm1VrbOztXLVaNaoPRzRgSwQ40iMr-smSLhwhl_YzTw=w1919-h950)
 
 **Figure 11.** Annotated code blocks are contained in the code evaluator.  	
 
@@ -186,7 +189,7 @@ Write the title on the first line of the question document. To annotate the tile
 2.	Write the title of the lesson using headline capitalization. 
 3.	Leave the next line blank.
 
-![](https://lh3.googleusercontent.com/qB8efw9XLNNesC-dnseuuInaSHfh0eyZKDMae4xtVJZnROA4I2NxkucMQ9tsmNAoKNxyrfDGcRaQEng=w1920-h950) 
+![](https://lh3.googleusercontent.com/oXZZ4HpW5M8xVSkp-wb7YI6ztssp9MOfbZkcWAlDtIgIuEH90_c42uDgHyqYXvF2sQR3cJJWDrgw2zM=w1919-h950) 
 
 **Figure 12.** On the first line of the document, write the title of the lesson using headline style capitalization.
 
@@ -224,7 +227,7 @@ In **Practice**, learners test what they have learned in the past three sections
 5.	In the last sentence, state what should happen if the program is written correctly.
 6.	Create the annotation for the code evaluator.
 
-![](https://lh4.googleusercontent.com/5n59TM2Sj4RUJ95YVr9foCABN6lXDZRfdws46pUupCVemXDaDfPFXEM1aTTRWTe6ee3qMYEDNH-OzRI=w1919-h950-rw) 
+![](https://lh3.googleusercontent.com/VlQ4wZIdZo7-uJVHBkPTWhcb118fBkNBE7EugsmfV6VOJb68vo1Sz2OtZNI-wUTRr7a-I3YiVmarHKg=w1919-h950-rw) 
 
 **Figure 13.** Create an annotation for the question type and answer. Write the problem statement. Lastly, create an annotation for the code evaluator.
 
