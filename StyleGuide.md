@@ -4,6 +4,8 @@ This style guide is called **Writer's Block**. The objectives of **Writer's Bloc
 - to make content as consistent as possible
 - to make writing questions and answers efficient
 
+This is a good cheat sheet if you are lazy or aiming at consistency. These are suggestions and not rules. Tweaking, variations, and some creativity are welcomed. But your compliance is encouraged.
+
 ## Question construction
 
 ### Question form
@@ -39,7 +41,7 @@ These are the common constructions for questions that require multiple selection
 
 #### Verbs
 
-This is a good cheat sheet if you are lazy or aiming at consistency. These are suggestions and not rules. Tweaking, variations, and some creativity are welcomed. But your compliance is encouraged.
+
 
 Variables = replace
 Write ***replace its value*** to mean that a variable is interpolated with its value. 
