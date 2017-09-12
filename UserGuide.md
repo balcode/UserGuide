@@ -17,7 +17,7 @@ To write objectives, follow these steps:
 
 1. Annotate the title of the lesson with three number signs **#**. In the markdown format, three number signs **#** will render at text in heading three format. Enclose the name of the lesson in backticks **`**.
 
-![Writing an objective's title](https://lh5.googleusercontent.com/JYYUUOTHh3FecuBaSFDdXvef3k-rlwDJUhbPz2wRHUN13cgJ8nFQ-5K8NxtX73KTLoTqk8yrQkaD4kQ=w1919-h950-rw)
+![Writing an objective's title](https://raw.githubusercontent.com/balcode/UserGuide/22e7d3c59f38ad41e00aa60f653fc52d67768a91/user-guide-screens/title-lesson-objectives.png)
 **Figure 1.** Use the heading 3 annotation for the title of the objective document. Enclose the name of the lesson in backticks **`**.
 
 2. Enumerate the skills that a learner must acquire by the end of the lesson.
@@ -37,7 +37,7 @@ To write objectives, follow these steps:
         </br>
         c. the markdown <code>.md</code> file extension
 
-![Writing an objective](https://lh3.googleusercontent.com/4SCkmFDJPs_DM-Bl2ZuLqk5BEGE_9CVe8iJ2gy1JHZ2KwPlWquIJh280LV3e1GeebxU4bmVN0cTgiOg=w1919-h950-rw)
+![Writing an objective](https://raw.githubusercontent.com/balcode/UserGuide/22e7d3c59f38ad41e00aa60f653fc52d67768a91/user-guide-screens/objectives.png)
 **Figure 2.** When saving an objective document, capitalize every word including conjunctions. Do not capitalize the words <code>objectives</code> and <code>md</code>.
 
 ## Gathering Facts
@@ -55,7 +55,7 @@ To write a facts document, follow these steps:
         b. the word <code>facts</code>
         </br>
         c. the markdown <code>.md</code> file extension 
-![Writing the facts document](https://lh6.googleusercontent.com/1tVxHEmCspjG-QH4YUnTJ7tDX_Tfl-YhkpoKRps_qvyGGi0lidehit2Uqj2jxWS9ix19JbhPL6qG12Q=w1919-h950-rw)
+![Writing the facts document](https://raw.githubusercontent.com/balcode/UserGuide/22e7d3c59f38ad41e00aa60f653fc52d67768a91/user-guide-screens/facts-lesson-list.png)
 **Figure 3.** Write the facts that will be included in the lesson.
 
 
@@ -69,7 +69,7 @@ When saving a question document file, capitalize every word of the filename incl
 2.	the suffix ".q"
 3.	the file extension ".md"
 
-![How to name a question document](https://lh5.googleusercontent.com/aQ7lawQjuSjFOorInbeyZ8-lGuV5GqCePHK-iS3cinxfx2bBpyO3C4wjsSBicgZBhmbmeBnM6knd8Oc=w1919-h950-rw)
+![How to name a question document](https://raw.githubusercontent.com/balcode/UserGuide/22e7d3c59f38ad41e00aa60f653fc52d67768a91/user-guide-screens/guide-sc-naming-conventions.png)
 **Figure 4.** When naming a question document, capitalize every word including conjunctions.
 
 ### Annotations
@@ -87,7 +87,7 @@ Use three number signs ### to denote a specific part of a lesson.
 
 Use three slash signs /// to denote the type of a question or render a code editor. 
 
-![Three slash signs](https://lh4.googleusercontent.com/OTQ5Dk8Gfwt5oHiFLKuVRiPVasYQIT2ViWFwmBkC30cTCsZiyHr0WYa9GkixtS3MZe1uW72yULDnlFs=w1919-h950)
+![Three slash signs](https://raw.githubusercontent.com/balcode/UserGuide/22e7d3c59f38ad41e00aa60f653fc52d67768a91/user-guide-screens/guide-slash-types.png)
 
 **Figure 5.** In the first instance, the slashes indicate that what follows is a read-only **REPL**. 
               In the second instance, the slashes denote the type of question.
@@ -111,8 +111,8 @@ To annotate an answer, follow these steps:
 
 For code response answers, indicate the path of the file that contains the correct answer.
 
-![Include the path for code response](https://lh3.googleusercontent.com/sowpArxrKpeslu3t8-HUTfu0IOEHZs0gcNBfHvFWjTvJmUteRYH9pxJajFMXvpU_UJZWyhZgI1pvkPk=w1919-h950-rw) 
-**Figure 6.** For Code Response questions, indicate the path of the file that contains the correct answer.
+![Include the path for code response](https://raw.githubusercontent.com/balcode/UserGuide/22e7d3c59f38ad41e00aa60f653fc52d67768a91/user-guide-screens/guide-sc-CR-type.PNG) 
+**Figure 6.** For **Code Response** questions, indicate the path of the file that contains the correct answer.
 
 ### Types of Questions
 
@@ -134,7 +134,7 @@ A learner should run a CR to see its result.
 
 A learner should run an REPL to see its result.
 
-![Indicate the question type and correct answer](https://lh3.googleusercontent.com/tRZthsQI7MXv1SDjEjW8CNUCXXqqcoRMFfLkigU-kS-YTcLSZM9JGamrvtWuNWf7755-QXqUZwy6wjw=w1919-h950) 
+![Indicate the question type and correct answer](https://raw.githubusercontent.com/balcode/UserGuide/22e7d3c59f38ad41e00aa60f653fc52d67768a91/user-guide-screens/guide-sc-question-annotation.png) 
 
 **Figure 7.** This question annotation indicates that question 1 requires a single answer and the correct answer is the first option.
 
@@ -144,9 +144,9 @@ All question documents are formatted using a markup language called **Markdown**
 
 1. Put a hyphen **-** before each choice. The CodeStop reader interprets a hyphen **-** as a radio button for questions that require a single selection; and as a checkbox for questions that require multiple selection.
 
-![Put a hyphen before each selection](https://lh6.googleusercontent.com/zpDs4SuG8EtT1ZELZx3sEK8ZT7xn95KjMIRFUCHR3YCcIrLRbYU1ndcm3ARPtQgg1GnmkN14dO7gHHU=w1919-h950)
+![Put a hyphen before each selection](https://raw.githubusercontent.com/balcode/UserGuide/22e7d3c59f38ad41e00aa60f653fc52d67768a91/user-guide-screens/guide-sc-question-hyphen.png)
 
-![Hyphens as radio buttons](https://lh6.googleusercontent.com/bYmz9zLTHkC5iKLrjtULQd4lMDVP6kUgUfTwqtB4TRPUl9tsV5Yda--R9ogMB12rCA6rWzZNsOcvL9A=w1919-h950)
+![Hyphens as radio buttons](https://raw.githubusercontent.com/balcode/UserGuide/22e7d3c59f38ad41e00aa60f653fc52d67768a91/user-guide-screens/guide-sc-radio-button.png)
 
 **Figure 8.** A hyphen **-** is rendered as a radio button. 
 
@@ -160,7 +160,7 @@ All question documents are formatted using a markup language called **Markdown**
 *	Names of functions
 *	Keywords
 
-![](https://lh4.googleusercontent.com/MOFVaUJyFKmG2UUVCi_ajr4JB0gLagsGUk2ttvsLBOEbI8PbtvaYLDmTX58NrCxX1gzDgRSLdQa8cYY=w1919-h950) 
+![Enclose certain words in backticks](https://raw.githubusercontent.com/balcode/UserGuide/22e7d3c59f38ad41e00aa60f653fc52d67768a91/user-guide-screens/guide-sc-variable-ticks.png) 
 
 **Figure 9.** The values of variables, names of variables, and code tags are enclosed in backticks **`** when part of a question or an answer.
 
@@ -170,15 +170,15 @@ All question documents are formatted using a markup language called **Markdown**
 Annotate blocks of code so that they are contained in the code evaluator.
 
 To annotate a code block, follow these steps:
-1. Write three back ticks followed by the name of the programming language. For example: **```php**.
+1. Write three backticks followed by the name of the programming language. For example: **```php**.
 2. Enter the code block.
-3. Write three back ticks **```** to close the code block.
+3. Write three backticks **```** to close the code block.
 
-![Code blocks are enclosed in back ticks](https://lh5.googleusercontent.com/z-gT2IY91NdXKZaYrqR4OApk9q4ZHonpN_tDUKVSPdpLgqXbcaEoxYZ_ENQ0X_A7z6GZ9G4EXkVmafE=w1919-h950)
+![Code blocks are enclosed in backticks](https://raw.githubusercontent.com/balcode/UserGuide/22e7d3c59f38ad41e00aa60f653fc52d67768a91/user-guide-screens/guide-sc-code-annotation.png)
 
 **Figure 10.** Enclose code blocks in three backticks.  
 
-![How code blocks are rendered](https://lh5.googleusercontent.com/-VdkbwaGfRfQ0JuxJhxbmlbwEmpgOwyCsGhFRm1VrbOztXLVaNaoPRzRgSwQ40iMr-smSLhwhl_YzTw=w1919-h950)
+![How code blocks are rendered](https://raw.githubusercontent.com/balcode/UserGuide/22e7d3c59f38ad41e00aa60f653fc52d67768a91/user-guide-screens/guide-sc-code-rendered.png)
 
 **Figure 11.** Annotated code blocks are contained in the code evaluator.  	
 
@@ -189,7 +189,7 @@ Write the title on the first line of the question document. To annotate the tile
 2.	Write the title of the lesson using headline capitalization. 
 3.	Leave the next line blank.
 
-![](https://lh3.googleusercontent.com/oXZZ4HpW5M8xVSkp-wb7YI6ztssp9MOfbZkcWAlDtIgIuEH90_c42uDgHyqYXvF2sQR3cJJWDrgw2zM=w1919-h950) 
+![](https://raw.githubusercontent.com/balcode/UserGuide/22e7d3c59f38ad41e00aa60f653fc52d67768a91/user-guide-screens/first-line-title.png) 
 
 **Figure 12.** On the first line of the document, write the title of the lesson using headline style capitalization.
 
@@ -227,7 +227,7 @@ In **Practice**, learners test what they have learned in the past three sections
 5.	In the last sentence, state what should happen if the program is written correctly.
 6.	Create the annotation for the code evaluator.
 
-![](https://lh3.googleusercontent.com/VlQ4wZIdZo7-uJVHBkPTWhcb118fBkNBE7EugsmfV6VOJb68vo1Sz2OtZNI-wUTRr7a-I3YiVmarHKg=w1919-h950-rw) 
+![](https://raw.githubusercontent.com/balcode/UserGuide/22e7d3c59f38ad41e00aa60f653fc52d67768a91/user-guide-screens/guide-sc-practice.png) 
 
 **Figure 13.** Create an annotation for the question type and answer. Write the problem statement. Lastly, create an annotation for the code evaluator.
 
