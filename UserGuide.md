@@ -17,7 +17,7 @@ To write objectives, follow these steps:
 
 1. Annotate the title of the lesson with three number signs **#**. In the markdown format, three number signs **#** will render at text in heading three format. Enclose the name of the lesson in backticks **`**.
 
-![Writing an objective's title](https://lh4.googleusercontent.com/jUzM15CufIyAgRFO8yxAclArFKGFfPh2_A2iTOvoACtp_tCrgUPjmn--kWgzJWmY3Ufbtk0zD62bzZc=w1919-h950-rw)
+![Writing an objective's title](https://lh5.googleusercontent.com/JYYUUOTHh3FecuBaSFDdXvef3k-rlwDJUhbPz2wRHUN13cgJ8nFQ-5K8NxtX73KTLoTqk8yrQkaD4kQ=w1919-h950-rw)
 **Figure 1.** Use the heading 3 annotation for the title of the objective document. Enclose the name of the lesson in backticks **`**.
 
 2. Enumerate the skills that a learner must acquire by the end of the lesson.
@@ -37,8 +37,8 @@ To write objectives, follow these steps:
         </br>
         c. the markdown <code>.md</code> file extension
 
-![Writing an objective](https://lh3.googleusercontent.com/yo9h9yCK3oyBfAnF35h--QAOnMR-o7_ok7g6mETQcKBcvQVd9iUJu87I_9uRtrYtXB-xZWJoDZwkGFo=w1919-h950-rw)
-**Figure 2.** When saving an objective document, capitalize every word including conjunctions. Do not capitalize <code>objectives</code> and <code>md</code>.
+![Writing an objective](https://lh3.googleusercontent.com/4SCkmFDJPs_DM-Bl2ZuLqk5BEGE_9CVe8iJ2gy1JHZ2KwPlWquIJh280LV3e1GeebxU4bmVN0cTgiOg=w1919-h950-rw)
+**Figure 2.** When saving an objective document, capitalize every word including conjunctions. Do not capitalize the words <code>objectives</code> and <code>md</code>.
 
 ## Gathering Facts
 
@@ -55,7 +55,7 @@ To write a facts document, follow these steps:
         b. the word <code>facts</code>
         </br>
         c. the markdown <code>.md</code> file extension 
-![Writing the facts document](https://lh5.googleusercontent.com/fsXFP9XqjwEFRD-xk4l278Xd7WaOMtTXGUXCGqlYbFEbzkF-h7ViwNKPW-Zfv5GJ-uU3Z_0j5AD33uw=w1919-h950-rw)
+![Writing the facts document](https://lh6.googleusercontent.com/1tVxHEmCspjG-QH4YUnTJ7tDX_Tfl-YhkpoKRps_qvyGGi0lidehit2Uqj2jxWS9ix19JbhPL6qG12Q=w1919-h950-rw)
 **Figure 3.** Write the facts that will be included in the lesson.
 
 
@@ -118,17 +118,17 @@ For code response answers, indicate the path of the file that contains the corre
 
 There are five annotations that indicate the type of question. 
 
-**MS**. **MS** stands for multiple selection. This type of question requires two or more selections. Use this annotation for a multiple selection question: **///type=MS**.
+**MS**. **MS** stands for multiple selection. This type of question requires two or more selections. Use this annotation for a multiple selection question: **/// type=MS**.
 
-**SS**. **SS** stands for single selection. This type of question requires one selection. Use this annotation for a single selection question: **///type=SS**. 	
+**SS**. **SS** stands for single selection. This type of question requires one selection. Use this annotation for a single selection question: **/// type=SS**. 	
 
-**TI**. **TI** stands for text input. This type of question requires a learner to enter text for the answer. Use this annotation for a question that requires text input: **///type=TI**.
+**TI**. **TI** stands for text input. This type of question requires a learner to enter text for the answer. Use this annotation for a question that requires text input: **/// type=TI**.
 
-**CR**. **CR** stands for code response. This type of question requires a learner to enter a line or block of code to answer a question. Use this annotation for a question that requires code response: **///type=CR**.
+**CR**. **CR** stands for code response. This type of question requires a learner to enter a line or block of code to answer a question. Use this annotation for a question that requires code response: **/// type=CR**.
 
 A learner should run a CR to see its result.
 
-**REPL**. **REPL** stands for read-eval-print loop. This annotation indicates that what follows the annotation is a block of code. The code block can be read-only or editable. Use this annotation for a read-only REPL: **///type=REPL, readonly=true**. For an editable REPL, use this annotation: **///type=REPL**. 
+**REPL**. **REPL** stands for read-eval-print loop. This annotation indicates that what follows the annotation is a block of code. The code block can be read-only or editable. Use this annotation for a read-only REPL: **/// type=REPL, readonly=true**. For an editable REPL, use this annotation: **/// type=REPL**. 
 //This requires writers to prepare answers and tests files for proofs.
     
 

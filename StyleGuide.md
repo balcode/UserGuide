@@ -37,49 +37,59 @@ These are the common constructions for questions that require multiple selection
 ***Which statements [condition]?***
 ***Which statements correctly describe the error on line 3?***
 
-#### Verbs
+### Verbs
 
 This is a good cheat sheet if you are lazy or aiming at consistency. These are suggestions and not rules. Tweaking, variations, and some creativity are welcomed. But your compliance is encouraged.
 
-Variables = replace
+#### Variables
 Write ***replace its value*** to mean that a variable is interpolated with its value. 
 
-Strings = display
+#### Strings 
 
-Write ***The the string should display its value*** to mean 
+Write ***display*** to mean that a variable is interpolated in a string. For example: ***The the string should display its value***.
 
-Error message = produces an error
+#### Error message 
 
-Program
+Write ***produces an error*** to mean that a code generates an error message.
 
-Write “execute” if you want a learner to 
+#### Program
 
-Write “run”
+Write ***execute*** for instructions except in ***Problem Statement***.
+For example: ***Execute the program. What is its output?***
 
- = run or execute?
-Erroneous code
-Correct the code the code so that it displays “John’s score is 45 points.”
+Write ***run*** in problem statements.
 
-Capitalization
-PHP
+
+### Capitalization
+
+#### PHP
 Write in all caps when referring to the name of the programming language
 Write in small caps when referring to code blocks of PHP
-Boolean
+
+#### Boolean
+
 Lower case for data type
 Capitalized for classes
-Single-word choices 
-In choice selection, single-word choices are capitalized
-Punctuation
-Backticks and periods 
+
+#### Choices 
+
+The first word of each choice is capitalized. This also appies to single-word choices.
+
+### Punctuation
+
+#### Backticks and periods 
 Put a period after a complete sentence that is enclosed in backticks. 
 The program displays `Hello, World.`.
-Oxford comma
-	For lists with three or more items, put a comma before “and” or “or.”
-	Today, you’ll learn about variables, interpolation, and strings.
-	You can study PHP, Java, Python, or Ruby.
+
+#### Oxford comma
+
+For example: ***Today, you’ll learn about variables, interpolation, and strings.***
+			 ***You can study PHP, Java, Python, or Ruby.***
 Introductory phrases
 	Set off introductory words and phrases with a comma
 	Next, create a variable named $studentGrade.
+#### If vs. When
+
 
 Verbs/Nouns + Prepositions
 Enclosed = in
