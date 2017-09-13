@@ -15,10 +15,10 @@ Begin by writing objectives in order to limit the scope of the lesson and identi
 
 To write objectives, follow these steps:
 
-1. Annotate the title of the lesson that you are writing objectives for with three number signs **#**. In the markdown format, three number signs **#** will render at text in heading three format. Enclose the name of the lesson in backticks **`**.
+1. Annotate the title of the lesson that you are writing objectives for with three number signs `###`. In the markdown format, three number signs `###` will render at text in heading three format. Enclose the name of the lesson in backticks <code>`</code>.
 
 ![Writing an objective's title](https://raw.githubusercontent.com/balcode/UserGuide/22e7d3c59f38ad41e00aa60f653fc52d67768a91/user-guide-screens/title-lesson-objectives.png)
-**Figure 1.** Use the heading 3 annotation for the title of the objective document. Enclose the name of the lesson in backticks **`**.
+**Figure 1.** Use the heading 3 annotation for the title of the objective document. Enclose the name of the lesson in backticks <code>`</code>.
 
 2. Enumerate the skills that a learner must acquire by the end of the lesson.
 3. Use the <code>verb</code> **+** <code>knowledge / topic</code> format:
@@ -46,7 +46,7 @@ The facts document serve as your reference when writing questions. The facts doc
 
 To write a facts document, follow these steps:
 
-1. Annotate the title of the lesson with three number signs `#`. In the markdown format, three number signs `#` will render at text in heading three format. Enclose the name of the lesson in backticks **`**. 
+1. Annotate the title of the lesson with three number signs `###`. In the markdown format, three number signs `###` will render at text in heading three format. Enclose the name of the lesson in backticks <code>`</code>. 
 2. Summarize the relevant facts that you will be included in the lesson.
 3. Save the facts document in the following format:
         </br>
@@ -103,7 +103,29 @@ Use three colons to indicate that:
 - what follows is a code block
 - all the codes and questions within the two sets of three colons `:::` go together
 
+![First set of three colons](https://raw.githubusercontent.com/balcode/UserGuide/user-guide-review/user-guide-screens/three-colons-1.png)
 
+![Second set of three colons](https://raw.githubusercontent.com/balcode/UserGuide/user-guide-review/user-guide-screens/three-colons-2.png)
+**Figure n.** In this example, the set of questions start on `line 8` and ends on `line 125`, as indicated by the two sets of three colons `:::`.
+
+#### Three plus signs
+
+Each question document has four parts:
+
+1. Sample Code Analysis
+2. Knowledge Assessment
+3. Finding and Fixing Errors
+4. Practice
+
+Use two sets of three plus signs `+++` to indicate that the text they enclose are a specific part of the lesson.
+
+![First three plus signs]
+(link to image)
+**Figure n.** The three plus signs `+++` indicate that the text enclosed within are specific part of a lesson. The three plus signs `+++` indicate the beginning of `Part 1 Sample Code Analysis`. 
+
+![Second three plus signs]
+(link to image)
+**Figure n.** The second set of three plus signs `+++` indicate the end of `Part 1 Sample Code Analysis.`
 
 ### How to Annotate an Answer Key
 
@@ -161,7 +183,7 @@ All question documents are formatted using a markup language called **Markdown**
 
 **Figure 8.** A hyphen **-** is rendered as a radio button. 
 
-2.	Enclose all of the following in backticks **`** whenever they are contained in a question or answer:
+2.	Enclose all of the following in backticks <code>`</code> whenever they are contained in a question or answer:
 
 *	Names of variables
 *	Values of variables
@@ -173,7 +195,7 @@ All question documents are formatted using a markup language called **Markdown**
 
 ![Enclose certain words in backticks](https://raw.githubusercontent.com/balcode/UserGuide/22e7d3c59f38ad41e00aa60f653fc52d67768a91/user-guide-screens/guide-sc-variable-ticks.png) 
 
-**Figure 9.** The values of variables, names of variables, and code tags are enclosed in backticks **`** when part of a question or an answer.
+**Figure 9.** The values of variables, names of variables, and code tags are enclosed in backticks <code>`</code> when part of a question or an answer.
 
 
 ### How to annotate a code block
