@@ -1,0 +1,17 @@
+# Installation
+
+To install via Composer add the following to your `composer.json` file
+```
+{
+     "repositories": [
+          {
+              "type": "git",
+              "url": "https://github.com/CodingAvenue/ca-school-php-proof"
+          }
+     ],
+     "require": {
+          "codingavenue/php-proof": "0.0.7"
+     }
+}
+```
+Then do `composer update`. Once composer has finish, you are now ready to use this awesome library!

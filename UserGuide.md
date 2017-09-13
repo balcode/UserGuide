@@ -15,7 +15,7 @@ Begin by writing objectives in order to limit the scope of the lesson and identi
 
 To write objectives, follow these steps:
 
-1. Annotate the title of the lesson with three number signs **#**. In the markdown format, three number signs **#** will render at text in heading three format. Enclose the name of the lesson in backticks **`**.
+1. Annotate the title of the lesson that you are writing objectives for with three number signs **#**. In the markdown format, three number signs **#** will render at text in heading three format. Enclose the name of the lesson in backticks **`**.
 
 ![Writing an objective's title](https://raw.githubusercontent.com/balcode/UserGuide/22e7d3c59f38ad41e00aa60f653fc52d67768a91/user-guide-screens/title-lesson-objectives.png)
 **Figure 1.** Use the heading 3 annotation for the title of the objective document. Enclose the name of the lesson in backticks **`**.
@@ -46,7 +46,7 @@ The facts document serve as your reference when writing questions. The facts doc
 
 To write a facts document, follow these steps:
 
-1. Annotate the title of the lesson with three number signs **#**. In the markdown format, three number signs **#** will render at text in heading three format. Enclose the name of the lesson in backticks **`**. 
+1. Annotate the title of the lesson with three number signs `#`. In the markdown format, three number signs `#` will render at text in heading three format. Enclose the name of the lesson in backticks **`**. 
 2. Summarize the relevant facts that you will be included in the lesson.
 3. Save the facts document in the following format:
         </br>
@@ -94,6 +94,17 @@ Use three slash signs /// to denote the type of a question or render a code edit
 
 To know more about the different types of question, read **Types of Questions** below.
 
+#### Three colons :::
+
+Three colons `:::` are delimiters that indicate the scope of a set of code and questions.
+
+Use three colons to indicate that:
+
+- what follows is a code block
+- all the codes and questions within the two sets of three colons `:::` go together
+
+
+
 ### How to Annotate an Answer Key
 
 Before each question, create a two-part annotation that indicates:
@@ -103,8 +114,8 @@ Before each question, create a two-part annotation that indicates:
 This is called the answer key. The answer key allows the reader to locate the correct answer. 
 
 To annotate an answer, follow these steps:
-1.	Use three slash signs **///** to denote that the text that follows indicates the type of question and the answer key.
-2.	Write **type=**`type of question`, followed by a comma **,**. 
+1.	Use three slash signs `///` to denote that the text that follows indicates the type of question and the answer key.
+2.	Write **type=**`type of question`, followed by a comma `,`. 
     </br>*See **Types of Questions** below to know how to annotate for different types of questions.*
 3.	Then, write **answer=**[`answerwithinthebrackets`].
 4.	Within the square brackets, indicate the correct answer. For single selection and multiple selection, the correct answer is indicated by a number: **1** being the first answer in the selection, **2** being the second, and so forth.
@@ -184,7 +195,7 @@ To annotate a code block, follow these steps:
 
 ### Title of the lesson
 
-Write the title on the first line of the question document. To annotate the tile, follow these steps:
+Write the title on the first line of the question document. To annotate the title, follow these steps:
 1.	Put a number sign **#** to denote that what follows is the title of the lesson. 
 2.	Write the title of the lesson using headline capitalization. 
 3.	Leave the next line blank.

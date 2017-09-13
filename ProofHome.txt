@@ -1,0 +1,28 @@
+# Coding Avenue PHP Proof Library
+
+A PHP Proof Library that can parse, analyze, and evaluate a given php file. It aims to help PHP course authors of CA School on validating user's answers. Having said that, this library is ideally used inside your PHPUnit tests.
+
+
+## PHP Proof Library has 3 main components
+
+ - **Parse** - Parses the php file and can traverse through it to be able to understand fully what is on the code.
+ - **Analyze** - Analyze the php file if it follows the PSR2 Coding Standard and Mess Detection.
+ - **Evaluate** - Evaluates the php file and gives back the output, returned value or error.
+
+
+## Terms and Meaning
+
+Before we dig deeper into this library, let's try to identify some terms and it's meaning that is use in this wiki.
+
+ - **code file** - This is the file where this library will look as the code input. Meaning the php file that will be parsed, analyze and evaluated.
+ - **proof file** - A proof file is a PHPUnit test that uses this library.
+ - **Test Answers** - A Test answer is a php file that would be use as an answer to your course question. This term is primarily use for local testing and setting up the environment.
+
+
+## File structure requirement
+
+This library requires a certain file structure for it to work properly.
+
+ - All Proof files must be placed inside a parent directory and that directory is on the root of your project.
+ - All Test Answers must be placed inside a parent directory and that directory is also on the root of your project.
+ - A test answer must have the same file name as the Proof file. And should have the same path part after it's parent directory respectively. What this means is that if you have a proof file at `proofs/chapter1/question3.php` Then your test answer for this proof file should be at `testAnswers/chapter1/question3.php`. Assuming `proofs` and `testAnswers` are your proof file and test answers parent directory respectively. 
