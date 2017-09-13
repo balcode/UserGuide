@@ -96,7 +96,7 @@ To know more about the different types of question, read **Types of Questions** 
 
 #### Three colons :::
 
-Three colons `:::` are delimiters that indicate the scope of a set of code and questions.
+Three colons `:::` indicate the scope of a set of code and questions.
 
 Use three colons to indicate that:
 
@@ -104,9 +104,8 @@ Use three colons to indicate that:
 - all the codes and questions within the two sets of three colons `:::` go together
 
 ![First set of three colons](https://raw.githubusercontent.com/balcode/UserGuide/user-guide-review/user-guide-screens/three-colons-1.png)
-
 ![Second set of three colons](https://raw.githubusercontent.com/balcode/UserGuide/user-guide-review/user-guide-screens/three-colons-2.png)
-**Figure n.** In this example, the set of questions start on `line 8` and ends on `line 125`, as indicated by the two sets of three colons `:::`.
+**Figure n.** The two sets of three colons `:::` indicate that the code and set of questions that start on `line 8` and end on `line 125` go together.
 
 #### Three plus signs
 
@@ -119,13 +118,12 @@ Each question document has four parts:
 
 Use two sets of three plus signs `+++` to indicate that the text they enclose are a specific part of the lesson.
 
-![First three plus signs]
-(link to image)
+![First three plus signs](https://raw.githubusercontent.com/balcode/UserGuide/user-guide-review/user-guide-screens/three-plus-signs.PNG)
+
 **Figure n.** The three plus signs `+++` indicate that the text enclosed within are specific part of a lesson. The three plus signs `+++` indicate the beginning of `Part 1 Sample Code Analysis`. 
 
-![Second three plus signs]
-(link to image)
-**Figure n.** The second set of three plus signs `+++` indicate the end of `Part 1 Sample Code Analysis.`
+![Second three plus signs](https://raw.githubusercontent.com/balcode/UserGuide/user-guide-review/user-guide-screens/three-plus-signs-2.png)
+**Figure n.** The first set of three plus signs `+++` indicate the end of `Part 1 Sample Code Analysis.` The second set of three plus signs `+++` indicate the beginning of `Part 2 Knowledge Assessment`. 
 
 ### How to Annotate an Answer Key
 
