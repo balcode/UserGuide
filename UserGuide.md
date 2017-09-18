@@ -1,17 +1,42 @@
- ## Introduction
 
-The goal of this guide is to make the content of question documents consistent. The content of CodeStop is created for individuals 12 years and older, with no background in programming. 
 
-### The Four Phases of Creating a Lesson
-The steps in creating a lesson: 
+## Introduction
+
+This document is called the `Content Creation Guide`. Its primary goal is to make the content of lessons and question documents of `CodeStop.io` consistent. This document is not set in stone. Whenever we find ways to do and write things better, we'll do it and do our best to update this guide.
+
+Here's a few things you should keep in mind when writing content for CodeStop:
+- we're writing for individuals 12 years and older, with no background in programming
+- we want 
+
+This guide does not cover:
+- punctuation
+- formatting and organization
+- language and grammar
+- general writing principles
+
+We have a style guide for that, aptly named `Writer's Block`.
+
+## The Four Phases of Creating a Lesson
+
+Writing a lesson from the ground up can be like following a checklist. It is not exciting but it keeps everything in order. However, you are free to interchange the different phases for writing a lesson. 
+
 1. Write objectives for the lesson.
 2. Gather facts about the lesson. 
 3. Create content and questions. 
 4. Create answers and tests files for type CR questions.
 
+
 ## Writing Objectives
 
-Begin by writing objectives in order to limit the scope of the lesson and identify the skills that you want to learners to acquire. The objectives document will not be accessed by learners. It is a reference for you, the course creator, and the reviewers.
+### Why objectives matter 
+
+Begin by writing objectives in order to:
+- limit the scope of the lesson; and 
+- identify the skills that you want learners to acquire. 
+
+The objectives document will not be accessed by learners. It is a reference for you, the course creator, and the reviewers.
+
+### How to write objectives
 
 To write objectives, follow these steps:
 
@@ -27,7 +52,7 @@ To write objectives, follow these steps:
         </br>
         <code>2. Identify the output of an echo statement.</code>
         </br>
-4. Adhere to the S-M-A-R-T guideline of writing objectives: specific, measurable, attainable, and time-bounded.
+4. Adhere to the `S-M-A-R-T` guideline of writing objectives: specific, measurable, attainable, and time-bounded.
 5. Avoid non-specific words such as <code>learn</code>, <code>know</code>, or <code>understand</code>.
 6. Save the objective document in the following format:
         </br>
@@ -42,7 +67,7 @@ To write objectives, follow these steps:
 
 ## Gathering Facts
 
-The facts document serve as your reference when writing questions. The facts document will not be accessed by learners. It is a reference for you, the course creator, and the reviewers. 
+The facts document serve as your reference when writing questions. It will not be accessed by learners. It is a reference for you, the course creator, and the reviewers. 
 
 To write a facts document, follow these steps:
 
@@ -55,11 +80,14 @@ To write a facts document, follow these steps:
         b. the word <code>facts</code>
         </br>
         c. the markdown <code>.md</code> file extension 
+
 ![Writing the facts document](https://raw.githubusercontent.com/balcode/UserGuide/22e7d3c59f38ad41e00aa60f653fc52d67768a91/user-guide-screens/facts-lesson-list.png)
 **Figure 3.** Write the facts that will be included in the lesson.
 
 
 ## The Question Document
+
+The codes, questions, and answers that learners see in the courses are contained in the question document.
 
 ### Naming convention for a question document
 
@@ -75,6 +103,7 @@ When saving a question document file, capitalize every word of the filename incl
 ### Annotations
 
 Annotations denote how a group of text will be rendered by the reader. The annotation for headers are as follows:
+
 #### One number sign #
 
 Use one number sign # to denote the title of the lesson.
@@ -135,8 +164,8 @@ This is called the answer key. The answer key allows the reader to locate the co
 
 To annotate an answer, follow these steps:
 1.	Use three slash signs `///` to denote that the text that follows indicates the type of question and the answer key.
-2.	Write **type=**`type of question`, followed by a comma `,`. 
-    </br>*See **Types of Questions** below to know how to annotate for different types of questions.*
+2.	Write **type=**`type of question`, followed by a comma `,`. See **Types of Questions** below to know how to annotate for different types of questions.
+
 3.	Then, write **answer=**[`answerwithinthebrackets`].
 4.	Within the square brackets, indicate the correct answer. For single selection and multiple selection, the correct answer is indicated by a number: **1** being the first answer in the selection, **2** being the second, and so forth.
 
@@ -149,21 +178,19 @@ For code response answers, indicate the path of the file that contains the corre
 
 There are five annotations that indicate the type of question. 
 
-**MS**. **MS** stands for multiple selection. This type of question requires two or more selections. Use this annotation for a multiple selection question: **/// type=MS**.
+**MS**. `MS` stands for multiple selection. This type of question requires two or more selections. Use this annotation for a multiple selection question: `/// type=MS`.
 
-**SS**. **SS** stands for single selection. This type of question requires one selection. Use this annotation for a single selection question: **/// type=SS**. 	
+**SS**. `SS` stands for single selection. This type of question requires one selection. Use this annotation for a single selection question: `/// type=SS`. 	
 
-**TI**. **TI** stands for text input. This type of question requires a learner to enter text for the answer. Use this annotation for a question that requires text input: **/// type=TI**.
+**TI**. `TI` stands for text input. This type of question requires a learner to enter text for the answer. Use this annotation for a question that requires text input: `/// type=TI`.
 
-**CR**. **CR** stands for code response. This type of question requires a learner to enter a line or block of code to answer a question. Use this annotation for a question that requires code response: **/// type=CR**.
+**CR**. `CR` stands for code response. This type of question requires a learner to enter a line or block of code to answer a question. Use this annotation for a question that requires code response: `/// type=CR`.
+A learner should run a CR to see its output.
 
-A learner should run a CR to see its result.
+**REPL**. `REPL` stands for read-eval-print loop. This annotation indicates that what follows the annotation is a block of code. The code block can be read-only or editable. Use this annotation for a read-only REPL: `/// type=REPL, readonly=true`. For an editable `REPL`, use this annotation: `/// type=REPL`. 
+A learner should run an REPL to see its output.
 
-**REPL**. **REPL** stands for read-eval-print loop. This annotation indicates that what follows the annotation is a block of code. The code block can be read-only or editable. Use this annotation for a read-only REPL: **/// type=REPL, readonly=true**. For an editable REPL, use this annotation: **/// type=REPL**. 
-//This requires writers to prepare answers and tests files for proofs.
-    
-
-A learner should run an REPL to see its result.
+Both `CR` and `REPL` questions require answer files and test files for proofs. To know more, see **Creating Answer and Test Files** below.
 
 ![Indicate the question type and correct answer](https://raw.githubusercontent.com/balcode/UserGuide/22e7d3c59f38ad41e00aa60f653fc52d67768a91/user-guide-screens/guide-sc-question-annotation.png) 
 
