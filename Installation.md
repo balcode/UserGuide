@@ -1,6 +1,7 @@
 # Installation
 
-To install via Composer add the following to your `composer.json` file
+To install via Composer add the following code to your `composer.json` file:
+
 ```
 {
      "repositories": [
@@ -14,4 +15,4 @@ To install via Composer add the following to your `composer.json` file
      }
 }
 ```
-Then do `composer update`. Once composer has finish, you are now ready to use this awesome library!
+Then do `composer update`. Once the composer is installed and upated, you are ready to use this awesome library!
