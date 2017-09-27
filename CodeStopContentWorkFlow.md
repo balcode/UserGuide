@@ -1,3 +1,19 @@
+In this document:
+- Outline of Repositories and Directories
+- Directories
+- Answers
+- Content
+- Tests
+- Vendor
+- How to Create A Repository
+- How to Clone a Repository
+- Repositories on Github
+- How to Zip a Course
+- Linux
+- Windows
+- Mac OS
+- The Open Source Contributor Mindset
+
 # Outline of Repositories and Directories
 
 This is the outline of directories and subdirectories for each repository. 
@@ -18,7 +34,6 @@ This is the outline of directories and subdirectories for each repository.
     │   ├── test files 
 └── vendor directory
 ```
-
 ## Directories
 
 Just like most Github repositories, each repository of CodeStop PHP courses have directories and subdirectories.
@@ -107,23 +122,24 @@ Below are the steps to create a new course repository on GitHub.
 
  1. On the upper-right corner of GitHub, click the `plus sign` **`+`** to create a new course repository. 
 
-![Click the add button.]()In the upper-right corner, click the plus sign to to create a new repository. 
+![Click the add button.](https://raw.githubusercontent.com/balcode/UserGuide/user-guide-review/user-guide-screens/create-new-repo.png)In the upper-right corner, click the plus sign to to create a new repository. 
  
  2. On the `Create a new repository` page, enter the name of your new repository. All names course repositories must be in lowercase with each word separated by a dash. For example, `ca-school-javascript-introduction`.
 
 ## How to Clone a Repository
 
-Your local directory is where you will put all the files you need in the process of creating a course. To clone a Github repository, do this:
+After creating a repository on Github, you will need to create a local directory. Your local directory is where you will put all the files you need in the process of creating a course. To clone a Github repository, do this:
 
 1. Copy the SSH link to the repository page that you want to clone.
+![Copy the SSH link](https://raw.githubusercontent.com/balcode/UserGuide/user-guide-review/user-guide-screens/create-new-repo-ssh.png)
 2. On your local computer, open Git Bash and type `cd "Local directory"` to switch to the directory where you want to store your files.
-![Desktop directory]()
-3. Type `git clone "SSH link to repository"`.
-git@github.com:balcode/ca-school-javascript-introduction.git
+3. Type `git clone` `"SSH link to repository"`
+
+![Run this command to clone](https://raw.githubusercontent.com/balcode/UserGuide/user-guide-review/user-guide-screens/create-new-repo-git-dir.png)
 4. Run the following commands: 
  ```php
   git pull
-  git checkout -b name-of-lesson-branch
+  git checkout -b "name-of-lesson-branch"
  ```
 `git pull` integrates a remote repository to your current branch.
 `git checkout -b name-of-lesson-branch` creates a new branch. Note that the name of the branch only contains lower case letter, with each word separated by a hyphen `-`.
@@ -171,7 +187,14 @@ Before upload a course to a platform, the course files must be zipped. To zip co
 
 ## Mac OS
 
-
 # The Open Source Contributor Mindset
 
-The idea of assigning each of us our own repo to contribute to is to avoid the one-man-mind decision... but still it doesn't mean it should look like its a wild-west where each has its own rules. We are still working on the common goal and to achieve that common goal is to be transparent with what we are working on, have documentation for each services you own, work on the right stuff, so that by the end of the day our services/repos will still talk to each other without much fuss configuring them to... talk to each other, no redundancies in logics between repos - think as if it is still a one repo.
+The idea of assigning each of us our own repo to contribute to is to avoid the one-man-mind decision. But still it doesn't mean it should look like its a wild-west where each has its own rules. We are still working on the common goal and to achieve that common goal is to be transparent with what we are working on, have documentation for each services you own, work on the right stuff, so that by the end of the day our services/repos will still talk to each other without much fuss configuring them to... talk to each other, no redundancies in logics between repos - think as if it is still a one repo.
+
+Current repos and their owners:
+
+ - reader @sandae
+ - renderer @jerome
+ - dashboard @mark @arnold
+ - sandbox @sandae
+ - proof-library @jerome

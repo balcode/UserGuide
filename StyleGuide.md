@@ -3,59 +3,90 @@
 This style guide is called **Writer's Block**. The objectives of **Writer's Block** are:
 - to make content as consistent as possible
 - to make writing questions and answers efficient
+- to save time and energy deciding what words to use
 
 ## Question construction
 
 ### Question form
 
-#### Whenever possible, write questions instead of incomplete statements.
-***What does the `echo` function do on line 3?***
+Whenever possible, write questions instead of incomplete statements.
+
+*What does the `echo` function do on line 3?*
+</br>instead of</br>
+*On line 3, the `echo` function:*
+
+### Organizing a question
+
+If a learner needs to locate a specific line of code, indicate its location first so that they can see it in the code evaluator.  
+
+*On line 12, add an equal sign `=` after the greater than `>` in the conditional expression. What is the value assigned to `$salary`?*
+</br>instead of</br>
+*Add an equal sign `=` after the greater than `>` in the conditional expression on line 12. What is the value assigned to `$salary`?*
+
+### Statement form
+When it is unavoidable to write in statement form, end the statement with a colon `:` to suggest that the choices are a continuation to the incomplete statement. 
+
+### Problem construction
+
+There are many ways to write a problem. CodeStop recommends to do the following:
+
+- The first sentence describes what the code should do.
 </br>
-instead of
-</br>
-***On line 3, the `echo` function:***
+*Write a program that interpolates multiple variables in a string.*
 
-#### Statement form
-When it is unavoidable to write in statement form, end the statement with a colon <code>**:**</code>. 
+- Describe how the program should be written, starting from the first line of code.
 
-#### Problem construction
+- The last line indicates what the learner should see if they write the code correctly.
 
-The first sentence describes the skill being tested.
-</br>
-***Write a program that computes the quotient of two floating point numbers.***
+Problem:
 
-#### These are the common constructions for single choice questions
+<code>
+Write a program that interpolates multiple variables in a string. Create the variables `$name` and `$address`, and assign the strings `Davidson` and `San Francisco` respectively. Use `echo` to display the string `$name is working in $address.`, wherein the variables are replaced with their corresponding values.
+</code>
 
-***Which statement [condition]?***
-***Which statement best describes the error on line 3?***
-***Which statement correctly describes the error on line 3?***
+Code:
 
-#### Multiple selections
+    $name = "Davidson";
+    $address = "San Francisco";
+    echo "$name is working in $address.";
+
+
+### Common constructions for single choice questions
+
+*Which statement [condition]?*
+
+*Which statement best describes the error on line 3?*
+
+*Which statement correctly describes the error on line 3?*
+
+### Multiple selections
 
 These are the common constructions for questions that require multiple selections
 
-***Which statements [condition]?***
-***Which statements correctly describe the error on line 3?***
+*Which statements [condition]?*
+*Which statements correctly describe the error on line 3?*
 
 ### Verbs
 
 This is a good cheat sheet if you are lazy or aiming at consistency. These are suggestions and not rules. Tweaking, variations, and some creativity are welcomed. But your compliance is encouraged.
 
-#### Variables
-Write ***replace its value*** to mean that a variable is interpolated with its value. 
+**Variables**
 
-#### Strings 
+Write *replace its value* to mean that a variable is interpolated with its value. 
 
-Write ***display*** to mean that a variable is interpolated in a string. For example: ***The the string should display its value***.
+**Strings** 
 
-#### Error message 
+Write *display* to mean that a variable is interpolated in a string. For example: *The the string should display its value*.
 
-Write ***produces an error*** to mean that a code generates an error message.
+**Error message** 
 
-#### Program
+Write *produces an error* to mean that a code generates an error message.
 
-Write ***execute*** for instructions except in ***Problem Statement***.
-For example: ***Execute the program. What is its output?***
+**Program**
+
+Write *execute* to mean that you intend a user to run a program.
+
+For example: *Execute the program. What is its output?***
 
 Write ***run*** in problem statements.
 
